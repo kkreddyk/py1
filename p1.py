@@ -61,3 +61,10 @@ for x in f7:
     print(x)
 f7.close()
 
+for line in open(filenam1):
+    print(line,end="")
+
+print("===============")
+with open(filenam1) as f:
+    for line in f:
+        print(line,end="")
