@@ -11,7 +11,7 @@ v3="value-3"
 print(v1,v2,v3)
 print(v1+v2+v3)
 print("-----------------")
-path="/Users/keerthikaliki/PycharmProjects/py1/"
+path="C:\Datas\\bigdata\workspaces\py1\data\\"
 filenam=path+"sampledata.txt"
 f = open(filenam,"rt")
 print("Reading 10 Characters="+f.read(10))
