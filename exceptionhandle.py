@@ -1,6 +1,7 @@
 # Trying Exception Handling example
 
 import sys
+import traceback
 
 """
 path = "/Users/keerthikaliki/PycharmProjects/py1/"
@@ -31,11 +32,30 @@ finally:
     print("finally...")
 """
 
+"""
 try:
     print("Trying..")
     raise NameError("h")
 except NameError:
     print("Except NameError")
-
 finally:
     print("finally..")
+"""
+
+
+try:
+    print("Trying")
+    #print(1/0)
+    #print(var)
+    path = "/Users/keerthikaliki/PycharmProjects/py1/"
+    filenam = path + "sampledata.txt"
+    f=open("/Users/keerthikaliki/PycharmProjects/py")
+    f.read()
+except Exception as e:
+    print(e)
+    traceback.print_exc()
+finally:
+    print("finally")
+
+
+
