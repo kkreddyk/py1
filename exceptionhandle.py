@@ -42,15 +42,16 @@ finally:
     print("finally..")
 """
 
-
+#import traceback
 try:
     print("Trying")
     #print(1/0)
     #print(var)
     path = "/Users/keerthikaliki/PycharmProjects/py1/"
     filenam = path + "sampledata.txt"
-    f=open("/Users/keerthikaliki/PycharmProjects/py")
-    f.read()
+    f=open("/Users/keerthikaliki/PycharmProjects/py1/sampledata.txt")
+    f=open("/Users/keerthikaliki/PycharmProjects/py1/sampledata.txt")
+    print(f.read())
 except Exception as e:
     print(e)
     traceback.print_exc()
@@ -58,4 +59,6 @@ finally:
     print("finally")
 
 
+print("====")
 
+print(3+4)
