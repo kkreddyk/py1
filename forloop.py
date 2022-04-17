@@ -21,3 +21,10 @@ print("s[2]=",s[2])
 a={1,2,3,3,4,5,5,6}
 print("a=",a)
 print(type(a))
+
+i=345
+s="100"
+print(i+int(s))
+
+v=input("Enter some Number:")
+print(v)
