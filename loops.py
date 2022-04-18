@@ -10,7 +10,10 @@ while c<7:
     if c==4:
         continue
     else:
-        break
+        #break
+        print("break", c)
+else:
+    print("c=",c)
 print("----------------")
 
 for x in range(10):
