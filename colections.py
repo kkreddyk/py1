@@ -25,3 +25,5 @@ for x,y in dictionry.items():
     print(x,y)
 #########################################
 
+thistuple = ("apple", "banana", "cherry", "apple", "cherry")
+print(thistuple)
